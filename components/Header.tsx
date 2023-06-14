@@ -11,6 +11,7 @@ import {
 } from "../styled-components/Header.Styled";
 import { PagesDivHead } from "../styled-components/Home.Styled";
 import { PageNameHome } from "../styled-components/Home.Styled";
+import { useState, useEffect } from "react";
 
 interface Hooks {
   menu: boolean;
@@ -45,7 +46,11 @@ export const pages: arrOfPageNames = [
 
 export default function Header({ setMenu, menu }: Hooks) {
   const router = useRouter();
-  const location = router.asPath;
+  const [location, setLocation] = useState(router.pathname);
+
+  useEffect(() => {
+    setLocation(router.pathname);
+  }, [router.pathname]);
 
   return (
     <>

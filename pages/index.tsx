@@ -16,6 +16,7 @@ import { pages } from "../components/Header";
 import { StyledLink } from "../styled-components/Header.Styled";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 interface Icons {
   src: string;
@@ -52,7 +53,11 @@ export default function Home({ menu }: Hooks) {
   const isMobile = useMediaQuery({ maxWidth: 1000 });
 
   const router = useRouter();
-  const location = router.asPath;
+  const [location, setLocation] = useState(router.pathname);
+
+  useEffect(() => {
+    setLocation(router.pathname);
+  }, [router.pathname]);
 
   return (
     <StyledHome
