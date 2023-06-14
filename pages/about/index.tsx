@@ -25,9 +25,12 @@ import {
 import data from "../../data.json";
 import { useEffect, useRef } from "react";
 import { useMediaQuery } from "react-responsive";
+import { useRouter } from "next/router";
 
 export default function About() {
   const skillsRef = useRef<any>(null);
+  const router = useRouter();
+  console.log(router.asPath);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
