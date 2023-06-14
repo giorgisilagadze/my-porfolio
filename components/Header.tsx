@@ -62,7 +62,9 @@ export default function Header({ setMenu, menu }: Hooks) {
           {location != "/" ? <HeaderName>Giorgi Silagadze</HeaderName> : null}
           <Iconhamb
             src={
-              menu ? "./images/icon-close.svg" : "./images/icon-hamburger.svg"
+              menu
+                ? "../../images/icon-close.svg"
+                : "./images/icon-hamburger.svg"
             }
             alt="hamburger"
             onClick={() => setMenu(!menu)}
