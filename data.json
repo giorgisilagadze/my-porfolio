@@ -1,0 +1,202 @@
+{
+    "about": [
+        {
+            "first": "Birthday:", 
+            "second": "2 Nov 2002"
+        },
+        {
+            "first": "Phone:", 
+            "second": "+995 591 44 87 87"
+        },
+        {
+            "first": "City:", 
+            "second": "Tbilisi, Georgia"
+        },
+        {
+            "first": "Age:", 
+            "second": "20"
+        },
+        {
+            "first": "Degree:", 
+            "second": "Bachelor"
+        },
+        {
+            "first": "Email:", 
+            "second": "silagadze.gio123@gmail.com"
+        },
+        {
+            "first": "Freelance:", 
+            "second": "Available"
+        }
+
+    ],
+    "about-text": {
+        "sum": "I'm an enthusiastic and detail-oriented frontend developer with a passion for staying up-to-date with emerging technologies. I have a strong ability to problem-solve and integrate complex design elements into user-friendly web applications. With a self-motivated attitude, I aim to deliver high-quality results and continuously expand my skillset."
+    },
+    "skills": [
+        {
+            "src": "./images/skills/html5.png",
+            "skill": "HTML5"
+        },
+        {
+            "src": "./images/skills/css3.png",
+            "skill": "CSS3"
+        },
+        {
+            "src": "./images/skills/tailwind.png",
+            "skill": "Tailwind"
+        },
+        {
+            "src": "./images/skills/styled-components.png",
+            "skill": "Styled-Components"
+        },
+        {
+            "src": "./images/skills/js.png",
+            "skill": "JavaScript"
+        },
+        {
+            "src": "./images/skills/typescript.png",
+            "skill": "TypeScript"
+        },
+        {
+            "src": "./images/skills/react.png",
+            "skill": "React.js"
+        },
+        {
+            "src": "./images/skills/git.png",
+            "skill": "Git"
+        },
+        {
+            "src": "./images/skills/api.png",
+            "skill": "Rest API"
+        }
+    ],
+    "projects": [
+        {
+            "title": "ALL",
+            "screens": ["./images/works/space.png", "./images/works/dictionary.png", "./images/works/Todo.png", "./images/works/sign-up-form.png", "./images/works/calculator.png", "./images/works/tic-tac-toe.png", "./images/works/photosnap.png", "./images/works/todoscreen.png", "./images/works/faq.png" ],
+            "projName": ["Space-tourism-website", "Dictionary App", "Todo App", "Sign-up-form", "Calculator App", "Tic-Tac-Toe App", "Photosnap Web-App", "Todo App", "FAQ Accordion Card"],
+            "link": [
+                {
+                    "github": "https://github.com/giorgisilagadze/space-tourism-website-React",
+                    "live": "https://space-tourism-website-react-nu.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/dictionary-web-app-React",
+                    "live": "https://dictionary-web-app-react.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/ToDo-React",
+                    "live": "https://to-do-react-ruddy.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/sign-up-form-React",
+                    "live": "https://sign-up-form-react-ashen.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/calculator-app",
+                    "live": "https://calculator-app-nine-delta.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/tic-tac-toe",
+                    "live": "https://tic-tac-toe-one-zeta.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/photosnap-multi-page-website-005",
+                    "live": "https://photosnap-multi-page-website-005.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/ToDo",
+                    "live": "https://to-do-delta-nine.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/FAQ-React",
+                    "live": "https://faq-react-eight.vercel.app/"
+                }
+            ]
+        },
+        {
+            "title": "REACT",
+            "screens": ["./images/works/space.png", "./images/works/dictionary.png", "./images/works/Todo.png", "./images/works/sign-up-form.png", "./images/works/photosnap.png", "./images/works/faq.png"],
+            "projName": ["Space-tourism-website", "Dictionary App", "Todo", "Sign-up-form", "Photosnap Web-App", "FAQ Accordion Card"],
+            "link": [
+                {
+                    "github": "https://github.com/giorgisilagadze/space-tourism-website-React",
+                    "live": "https://space-tourism-website-react-nu.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/dictionary-web-app-React",
+                    "live": "https://dictionary-web-app-react.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/ToDo-React",
+                    "live": "https://to-do-react-ruddy.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/sign-up-form-React",
+                    "live": "https://sign-up-form-react-ashen.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/photosnap-multi-page-website-005",
+                    "live": "https://photosnap-multi-page-website-005.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/FAQ-React",
+                    "live": "https://faq-react-eight.vercel.app/"
+                }
+            ]
+        },
+        {
+            "title": "JS",
+            "screens": [ "./images/works/calculator.png", "./images/works/tic-tac-toe.png", "./images/works/todoscreen.png"],
+            "projName": ["Calculator App", "Tic-Tac-Toe App", "Todo App"],
+            "link": [
+                {
+                    "github": "https://github.com/giorgisilagadze/calculator-app",
+                    "live": "https://calculator-app-nine-delta.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/tic-tac-toe",
+                    "live": "https://tic-tac-toe-one-zeta.vercel.app/"
+                },
+                {
+                    "github": "https://github.com/giorgisilagadze/ToDo",
+                    "live": "https://to-do-delta-nine.vercel.app/"
+                }
+            ]
+        },
+        {
+            "title": "TS",
+            "screens": ["./images/works/space.png"],
+            "projName": ["Space-tourism-website"],
+            "link": [
+                {
+                    "github": "https://github.com/giorgisilagadze/space-tourism-website-React",
+                    "live": "https://space-tourism-website-react-nu.vercel.app/"
+                }
+            ]
+        }
+    ],
+    "contact": [
+        {
+            "icon" : "./images/share.svg",
+            "title": "Social Profiles",
+            "info" : ["./images/links/facebook.svg", "./images/links/instagram.svg", "./images/links/linkedin2.png", "./images/links/github.png"],
+            "link" : ["https://www.facebook.com/gio.silagadze.547", "https://www.instagram.com/silagadze_giorgi/", "https://www.linkedin.com/in/giorgi-silagadze-3bb522257/", "https://github.com/giorgisilagadze"]
+
+        },
+        {
+            "icon" : "./images/email.png",
+            "title": "Email Me",
+            "info" : ["silagadze.gio123@gmail.com"],
+            "link" : [""]
+        },
+        {
+            "icon" : "./images/phone.png",
+            "title": "Call Me",
+            "info" : ["+995 591 44 87 87"],
+            "link" : [""]
+        }
+
+    ]
+}

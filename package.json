@@ -12,11 +12,15 @@
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
+    "@types/styled-components": "^5.1.26",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
+    "framer-motion": "^10.12.16",
     "next": "13.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-responsive": "^9.0.2",
+    "styled-components": "^5.3.11",
     "typescript": "5.1.3"
   }
 }
