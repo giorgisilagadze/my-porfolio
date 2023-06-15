@@ -49,6 +49,7 @@ type FormData = yup.InferType<typeof schema>;
 
 export default function Contact() {
   const [sentMessage, setSentMessage] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const {
     register,
@@ -58,6 +59,7 @@ export default function Contact() {
     resolver: yupResolver(schema),
   });
   const onSubmit = async (data: FormData) => {
+    setLoading(true);
     if (Object.keys(errors).length === 0) {
       setSentMessage(true);
       const response = await fetch("/api/sendEmail", {
@@ -67,6 +69,11 @@ export default function Contact() {
         },
         body: JSON.stringify(data),
       });
+      if (response.status == 200) {
+        setLoading(false);
+      } else {
+        setLoading(false);
+      }
     }
   };
 
