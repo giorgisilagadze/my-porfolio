@@ -31,6 +31,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useState } from "react";
+import { assert } from "console";
 
 const schema = yup
   .object({
@@ -56,10 +57,16 @@ export default function Contact() {
   } = useForm<FormData>({
     resolver: yupResolver(schema),
   });
-  const onSubmit = (data: FormData) => {
+  const onSubmit = async (data: FormData) => {
     if (Object.keys(errors).length === 0) {
       setSentMessage(true);
-      console.log(data);
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
     }
   };
 
