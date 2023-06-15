@@ -58,6 +58,7 @@ export default function Home({ menu }: Hooks) {
   useEffect(() => {
     setLocation(router.pathname);
   }, [router.pathname]);
+  console.log(location);
 
   return (
     <StyledHome
