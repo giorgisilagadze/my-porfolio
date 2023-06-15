@@ -77,7 +77,7 @@ export default function Home({ menu }: Hooks) {
         </Hometxt>
         <PagesDiv>
           {pages.map((item) => (
-            <StyledLink href={item.link}>
+            <StyledLink href={item.link} key={Math.random()}>
               <PageNameHome
                 opa={location == item.link ? "1" : "0.7"}
                 display={location == item.link ? "block" : "none"}
