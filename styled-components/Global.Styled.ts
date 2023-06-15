@@ -10,7 +10,7 @@ export const GlobalStyled = createGlobalStyle`
 
     body {
         min-height: 100vh;
-        background: url("./images/kyrie.jpeg") no-repeat ;
+        background: url("./images/background.jpeg") no-repeat ;
         background-size: 100vw 100vh;
         background-color: black;
 

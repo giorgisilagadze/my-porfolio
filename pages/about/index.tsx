@@ -63,7 +63,7 @@ export default function About() {
         </TitleDiv>
         <Learn>Learn more about me</Learn>
         <AboutFlexDiv>
-          <ProfilePict src="./images/profile-copy.jpeg" />
+          <ProfilePict src="./images/profile.png" />
           <div>
             <Prof>Software Engineer</Prof>
             <AbDiv>

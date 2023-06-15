@@ -74,7 +74,7 @@ export const ProfilePict = styled.img`
   }
 
   @media (min-width: 1440px) {
-    width: 404px;
+    min-width: 404px;
     height: 455px;
   }
 `;
@@ -135,6 +135,10 @@ export const AbAnsw = styled(AbTitle)`
 
 export const AbTxt = styled(AbAnsw)`
   margin-top: 20px;
+
+  @media (min-width: 1440px) {
+    line-height: 40px;
+  }
 `;
 
 export const SkillsParent = styled.div`
