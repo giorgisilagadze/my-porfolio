@@ -25,6 +25,8 @@ import {
   ContactTab,
   InputFlex,
   ContactMain,
+  LoadingCircle,
+  LoadingDiv,
 } from "../../styled-components/Contact.Styled";
 import data from "../../data.json";
 import { useForm } from "react-hook-form";
@@ -118,13 +120,19 @@ export default function Contact() {
             ))}
           </ContactTab>
           {sentMessage ? (
-            <ResultDiv>
-              <Check src="./images/check2.png" alt="" />
-              <ResultP>Your message has been sent</ResultP>
-              <ResentP onClick={() => setSentMessage(false)}>
-                Re-sent message
-              </ResentP>
-            </ResultDiv>
+            loading ? (
+              <LoadingDiv>
+                <LoadingCircle />
+              </LoadingDiv>
+            ) : (
+              <ResultDiv>
+                <Check src="./images/check2.png" alt="" />
+                <ResultP>Your message has been sent</ResultP>
+                <ResentP onClick={() => setSentMessage(false)}>
+                  Re-sent message
+                </ResentP>
+              </ResultDiv>
+            )
           ) : (
             <InputsDiv>
               <form onSubmit={handleSubmit(onSubmit)}>

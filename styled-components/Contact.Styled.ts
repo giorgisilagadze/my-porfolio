@@ -201,3 +201,26 @@ export const ContactMain = styled(StyledAbout)`
     gap: 30px;
   }
 `;
+
+export const LoadingDiv = styled(ResultDiv)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const LoadingCircle = styled.div`
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid #ccc;
+  border-top-color: #18d26e;
+  animation: rotateAnimation 1s linear infinite;
+`;
