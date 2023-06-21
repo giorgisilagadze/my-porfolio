@@ -30,7 +30,6 @@ import { useRouter } from "next/router";
 export default function About() {
   const skillsRef = useRef<any>(null);
   const router = useRouter();
-  console.log(router.asPath);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -111,7 +110,7 @@ export default function About() {
             </TabletDiv>
           </SkillsDiv>
         </SkillsParent>
-        <CV href="../../CV.pdf" download>
+        <CV href="./CV.pdf" download>
           <CVButton>
             <CvText>Download CV</CvText>
           </CVButton>
