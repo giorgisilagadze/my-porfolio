@@ -73,7 +73,7 @@ export default function Home({ menu }: Hooks) {
           Giorgi Silagadze
         </Name>
         <Hometxt>
-          Passionate <SpanProf>web developer</SpanProf> from Georgia
+          Passionate <SpanProf>software engineer</SpanProf> from Georgia
         </Hometxt>
         <PagesDiv>
           {pages.map((item) => (
